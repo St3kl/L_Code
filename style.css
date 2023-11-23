@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Heding styles ====================== */
+body{
+    background: red;
+}
+.header{
+    background:#fff;
+    display: flex;
+    justify-content: space-around; 
+    padding:20px 0px 20px 0px;
+    width:100%
+
+}
+.nav{
+    display: flex;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    column-gap:25px;
+    padding:10px 50px 10px 50px;
+    align-self: flex-end;
+    /* background:red */
+}
+/* ============Text style============ */
+.logo p{
+    font-size:1.7rem;
+    color:#000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.logo p:hover{
+    color:rgb(107, 122, 134)
+}
+.list a{
+    text-transform:capitalize;
+    font-weight: 550;
+    font-size:1rem;
+    padding:0px 5px 0px 5px;
+    transition: color .3s linear, border .3s linear;
+    
+}
+.list a:hover{
+    color:rgb(107, 122, 134);
+    border-bottom:solid 1px ;
+    border-width: 5px;
+    
+}
+/* ============/Text style============ */
+/* /Heding styles ====================== */
