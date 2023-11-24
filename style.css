@@ -11,14 +11,14 @@ a{
     color: #000;
 }
 /* Heding styles ====================== */
-body{
-    /* background: red; */
-}
+
 .header{
-    background:#fff;
+    background:transparent;
     display: flex;
     justify-content: space-around; 
     padding:20px 0px 20px 0px;
+
+
 }
 .nav{
     display: flex;
@@ -126,3 +126,114 @@ body{
 }
 /* ===/Media querys=== */
 /* /Heding styles ====================== */
+/* Banner styles ====================== */
+.banner{
+    /* background:red; */
+    width:100vw;
+    height: 100%;
+    background-color: red;
+   
+}
+.section_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: gray; */
+    /* width: 100%; */
+ 
+}
+.bnr_left{
+    display: none;
+}
+.bnr_right{
+    /* background: yellow; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.btn_banner{
+    background: rgb(159, 159, 159);
+    padding: 0.56rem;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 20px auto;
+    box-shadow: 0px 3px 5px rgba(27, 27, 27, 0.587);
+    transition: all 0.3s linear;
+}
+.btn_banner:hover{
+    box-shadow: 0px 3px 5px rgba(18, 17, 17, 0.632);
+    background: rgba(65, 56, 56, 0.427);
+}
+/* =====Text style===== */
+.bnr_right{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.bnr_right h1{
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+.bnr_right p{
+    font-size: 0.8rem;
+    margin-bottom:-8px;
+}
+/* ===Media querys=== */
+@media only screen and (min-width: 1200px){
+   .banner{
+    background:transparent;
+   }
+   
+    .section_banner{
+   column-gap: 20px;
+   width:80%;
+   margin: 0 auto;
+   padding: 0;
+   background:rgba(180,180,180);
+   }
+   
+    .bnr_left{
+        display: inline-block;
+        border: solid 1px;
+        width: 65%;
+        margin-left: -10px;
+        height: 100vh;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background: #000;
+        box-shadow:5px 0px 8px rgba(255, 255, 255, 0.632);
+    }
+    /* =====Text style===== */
+.bnr_right{
+    text-transform: uppercase;
+    /* border: solid 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.bnr_right h1{
+    font-size: 3.2rem;
+   
+   
+}
+.bnr_right p{
+    font-size: 0.6rem;
+    margin-bottom: 30px;
+}
+    /* .bnr_right{
+    background: #000;
+    } */
+    .section_banner{
+        display: flex;
+        
+        
+        
+    }
+}
+/* ===/Media querys=== */
+/* =====/Text style===== */
+/* /Banner styles ====================== */
