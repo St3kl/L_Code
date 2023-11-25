@@ -131,7 +131,7 @@ a{
     /* background:red; */
     width:100vw;
     height: 100%;
-    background-color: red;
+    background:rgba(180,180,180);
    
 }
 .section_banner{
@@ -199,13 +199,13 @@ a{
    
     .bnr_left{
         display: inline-block;
-        border: solid 1px;
+        /* border: solid 1px; */
         width: 65%;
         margin-left: -10px;
         height: 100vh;
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
-        background: #000;
+        background: #fff;
         box-shadow:5px 0px 8px rgba(255, 255, 255, 0.632);
     }
     /* =====Text style===== */
@@ -237,3 +237,53 @@ a{
 /* ===/Media querys=== */
 /* =====/Text style===== */
 /* /Banner styles ====================== */
+/* Recent_Proj styles ====================== */
+.proj_box{
+    display:flex;
+    justify-content: center;
+}
+.proj_box_container{
+    background:rgba(128, 128, 128, 0.358);width:50%;border-radius: 20px;
+    padding:1rem;
+    position: relative;
+    border: none;
+    box-shadow: 5px 5px 8px #000;
+    
+}
+.proj_box_container .git_hub{
+    width:50px;height:50px;background:blue;
+    border-radius: 50%; box-shadow: 3.5px 2px 8px #000; 
+    position: absolute; 
+    top:10px; left:10px;
+}
+.proj_img{
+    width:90%;height:200px;background:yellowgreen;
+    margin: 20px auto 10px auto;
+   
+}
+.proj_title{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+.resources{
+    display: flex;
+    column-gap: 4px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.res{
+    width:25px;height:25px;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 8px #000;
+    
+}
+.btn_proj{
+    background: gray;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-left:10px;
+}
+/* /Recent_Proj styles ====================== */
