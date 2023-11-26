@@ -238,52 +238,100 @@ a{
 /* =====/Text style===== */
 /* /Banner styles ====================== */
 /* Recent_Proj styles ====================== */
-.proj_box{
-    display:flex;
-    justify-content: center;
+.rec_section{
+    background: red;
+    padding:1rem 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.proj_box_container{
-    background:rgba(128, 128, 128, 0.358);width:50%;border-radius: 20px;
-    padding:1rem;
-    position: relative;
-    border: none;
-    box-shadow: 5px 5px 8px #000;
+
+.rec_title{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rec_card_box{
+    display: flex;
+    justify-content: center;
     
 }
-.proj_box_container .git_hub{
-    width:50px;height:50px;background:blue;
-    border-radius: 50%; box-shadow: 3.5px 2px 8px #000; 
-    position: absolute; 
-    top:10px; left:10px;
+img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 .proj_img{
-    width:90%;height:200px;background:yellowgreen;
-    margin: 20px auto 10px auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.rec_Card{
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
    
 }
-.proj_title{
-    text-transform: capitalize;
-    font-size: 1.3rem;
-    margin-left: 15px;
+.rec_Card:hover{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
 }
-.resources{
-    display: flex;
-    column-gap: 4px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-}
+.resours{display: flex;
+margin-top: -70px;
+justify-content: space-around;}
 .res{
-    width:25px;height:25px;
-    background: #000;
-    border-radius: 10px;
-    box-shadow: 1.5px 1.5px 8px #000;
+    
+    width: 30px;
+    filter: drop-shadow(1.3px 1.5px 5px #4444dd);
+    cursor: pointer;
+    transition: all 0.3s linear;
     
 }
-.btn_proj{
-    background: gray;
-    width: 90%;
-    padding: 1rem;
-    border-radius: 20px;
-    margin-left:10px;
+.res:hover{
+    transform: scale(1.1);
+}.sous{
+    display: flex;
+    column-gap: 0px;
 }
+.manto{
+    width: 300px;
+    height: 400px;
+  
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 20px;
+    top:-0px;
+    background: rgba(150, 150, 150, 0.733);
+}
+.manto:hover {
+    background: rgba(150, 150, 150, 0);
+    
+}
+.manto h3{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    padding-left: 1.5rem;
+}
+.btn_proj{
+    background: rgba(150, 150, 150, 0);
+    padding: 1rem;
+    width: 100%;
+    align-self: flex-end;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;font-size: 1.3rem;
+    text-transform: capitalize;font-weight: bold;
+    color: rgba(150, 150, 150, 0);
+   
+    
+}
+.btn_proj:hover{
+ color: rgb(50, 50, 50);
+ background:  rgba(150, 150, 150, 0.733);
+}
+
+
 /* /Recent_Proj styles ====================== */
